@@ -47,7 +47,7 @@ function Hero() {
   return (
     <div>
       <div>
-        <div>
+        <div className={styles.diff}>
           <h1 className={styles.title}>Descubrí todos los modelos</h1>
         </div>
         <div className={styles.bar}>
