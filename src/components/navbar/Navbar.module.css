@@ -164,6 +164,7 @@ img {
     .list {
         width: 100%;
         align-items: center;
+        opacity: 100%;
     }
 
     .active {
@@ -187,5 +188,9 @@ img {
     .menu li{
         display: none;
     }
+
+.menutext {
+padding-right: 2rem;
+}
 
 }
