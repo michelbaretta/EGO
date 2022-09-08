@@ -1,5 +1,5 @@
 .title {
-    padding: 5rem;
+    padding: 4rem 4rem 4rem 2rem;
     font-size: 2rem;
     padding-left: 7.5rem;
 }
@@ -223,6 +223,10 @@
 
 .bar {
     padding-left:  0;
+}
+
+.title {
+padding-left: 2rem;
 }
 
 .division {
