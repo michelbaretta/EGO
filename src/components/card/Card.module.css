@@ -1,0 +1,69 @@
+.card {
+    border: none;
+    background-color: white;
+    border-radius: .5rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-bottom: 1rem;
+}
+
+img.small{
+    max-width: 16.5rem;
+    width: 100%;
+    object-fit:contain;
+    margin: auto;
+    min-height: 200px;
+}
+
+.card-body {
+    padding: 1rem;
+    width: 100%;
+}
+  .card_body > * {
+    margin-bottom: 0.5rem;
+}
+
+.product {
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap;
+    min-height: 345px;
+    min-width: 307px;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 21%;
+}
+
+.text {
+    font-size: 0.8rem;
+    color: #191919;
+    text-align: center;
+    
+}
+
+.title {
+    font-size: 28px;
+}
+
+.button {
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:fit-content;
+    padding: 1rem 2.4rem;
+    height: 1.5rem;
+    background-color: #191919;
+    color: #ffffff;
+    font-size: small;
+    cursor: pointer;
+}
+
+.button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
