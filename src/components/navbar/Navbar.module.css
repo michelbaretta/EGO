@@ -189,6 +189,10 @@ img {
         display: none;
     }
 
+    .menu4 {
+       display: none;
+    }
+
 .menutext {
 padding-right: 1rem;
 }
