@@ -50,7 +50,7 @@ function Navbar() {
                 <ul className={styles.first_items}>
                   <div className={styles.close}>
                     <span className={styles.closetext}>cerrar</span>
-                    <AiOutlineClose size={20}></AiOutlineClose>
+                    <AiOutlineClose size={10}></AiOutlineClose>
                   </div>
                   <li>
                     <a href="#">Modelos</a>

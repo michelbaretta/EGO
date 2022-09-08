@@ -10,7 +10,7 @@
 }
 
 img.small{
-    max-width: 16.5rem;
+    max-width: 12.5rem;
     width: 100%;
     object-fit:contain;
     margin: auto;
@@ -37,14 +37,14 @@ img.small{
 }
 
 .text {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
     color: #191919;
     text-align: center;
     
 }
 
 .title {
-    font-size: 28px;
+    font-size: 21px;
 }
 
 .button {
@@ -53,7 +53,7 @@ img.small{
     align-items: center;
     justify-content: center;
     width:fit-content;
-    padding: 1rem 2.4rem;
+    padding: 1rem 1.6rem;
     height: 1.5rem;
     background-color: #191919;
     color: #ffffff;

@@ -1,6 +1,7 @@
 .title {
     padding: 5rem;
-    font-size: 3rem;
+    font-size: 2rem;
+    padding-left: 7.5rem;
 }
 
 .filters {
@@ -20,7 +21,7 @@
 .item {
     padding-right: 4rem;
     color: #373737;
-    font-size: medium;
+    font-size: small;
     white-space: nowrap;
     cursor: pointer;
     display: flex;
@@ -31,7 +32,7 @@
 .filter_title {
     padding-right: 4rem;
     font-weight: bold;
-    font-size:medium;
+    font-size: small;
     white-space: nowrap;
     display: flex;
     align-items: center;
@@ -42,7 +43,7 @@
 .sort {
     align-items: flex-end;
     color: #373737;
-    font-size: medium;
+    font-size: small;
     border: none;
     font-family: 'Poppins', sans-serif;
     width: 10rem;           
@@ -73,7 +74,7 @@
 }
 
 .sort_items {
-    font-size: smaller;
+    font-size: small;
 }
 
 .sort_items span {
@@ -82,9 +83,9 @@
 
 .active {
         margin-right: 4rem;
-        padding: 0.6rem;
+        padding: 0.5rem;
         color: white;
-        font-size: medium;
+        font-size: small;
         white-space: nowrap;
         background-color: #373737;
         border-radius: 50px;
@@ -115,7 +116,7 @@
 
 .dropdown .dropdown_btn{
     color: #373737;
-    font-size: medium;
+    font-size: small;
     display: flex;
     cursor: pointer;
     width: 10rem;
@@ -133,7 +134,7 @@
 
 .dropdown1 .dropdown_btn1{
     color: #373737;
-    font-size: medium;
+    font-size: small;
     display: flex;
     cursor: pointer;
     width: 10rem;
@@ -178,7 +179,7 @@
     transition: all 0.2s;
   }
   .dropdown_content span {
-    font-size: 13px;
+    font-size: 11px;
     color: #373737;
     cursor: pointer;  
     padding: .3rem;

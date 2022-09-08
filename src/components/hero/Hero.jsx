@@ -91,27 +91,25 @@ function Hero() {
               </div>
               {isActive && (
                 <ul className={styles.dropdown_content}>
-                  <li>
+                  <li onClick={() => setFilter("todos")}>
                     <span
                       className={
                         filter === "todos" ? styles.active2 : styles.item2
                       }
-                      onClick={() => setFilter("todos")}
                     >
                       Todos
                     </span>
                   </li>
-                  <li>
+                  <li onClick={() => setFilter("autos")}>
                     <span
                       className={
                         filter === "autos" ? styles.active2 : styles.item2
                       }
-                      onClick={() => setFilter("autos")}
                     >
                       Autos
                     </span>
                   </li>
-                  <li>
+                  <li onClick={() => setFilter("pickups")}>
                     <span
                       className={
                         filter === "pickups" ? styles.active2 : styles.item2
@@ -122,12 +120,11 @@ function Hero() {
                     </span>
                   </li>
 
-                  <li>
+                  <li onClick={() => setFilter("suvs")}>
                     <span
                       className={
                         filter === "suvs" ? styles.active2 : styles.item2
                       }
-                      onClick={() => setFilter("suvs")}
                     >
                       SUVs y Crossovers
                     </span>

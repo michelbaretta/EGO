@@ -1,6 +1,6 @@
 .navbar {
     width: 100%;
-    height: 85px;
+    height: 71px;
     display: flex;
     align-items: center;
     padding: 1rem;
@@ -9,7 +9,7 @@
 .menutext {
     color: #191919;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     display: flex;
     align-items: flex-end;
 }
@@ -44,7 +44,7 @@
 }
 
 .navbar a {
-    font-size: 1.2rem;
+    font-size: .9rem;
 }
 
 
@@ -54,7 +54,7 @@ header {
 }
 
 img {
-    width: 3rem;
+    width: 2.5rem;
     margin-right: 3rem;
     margin-left: 1.6rem;
 }
@@ -67,6 +67,7 @@ img {
     display: block;
     position: absolute;
     right: 1rem;
+    padding-right: 1.5rem;
     cursor: pointer;
     z-index: 10;
 }
@@ -88,7 +89,7 @@ img {
     width: 20%;
     z-index: 10;
     transition: left 1.5s;  
-    padding: 3rem;
+    padding: 1rem;
     background-color: lightgray;
     opacity: 90%;
 }
@@ -101,7 +102,7 @@ img {
 
 .models {
     color: red;
-    padding-bottom: 1.8rem;
+    padding-bottom: 1.4rem;
     border-bottom: 4px solid red;
 }
 
@@ -110,24 +111,24 @@ img {
 
 .close {
     position: absolute;
-    top: 13%;
-    right: 10%;
+    top: 9%;
+    right: 69%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .closetext {
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .list ul li  {
-    padding-bottom: 0.9rem;    
+    padding-bottom: 0.4rem;    
 
 }
 
 .list a {
-    font-size: small;
+    font-size: 10px;
     font-family: 'Poppins', sans-serif;
 }
 
